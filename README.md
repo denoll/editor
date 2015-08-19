@@ -17,12 +17,12 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-composer require denoll/editor:~1.0
+composer require denoll/editor:*
 ```
 or add
 
 ```json
-"denoll/editor" : "~1.0"
+"denoll/editor" : "*"
 ```
 
 to the require section of your application's `composer.json` file.
@@ -67,14 +67,14 @@ Testing
 -------
 
 To test the extension, is better to clone this repository on your computer. After, go to the extensions folder and do
-the following (assuming you have `composer` installed on your computer): 
+the following (assuming you have `composer` installed on your computer):
 
-```bash 
+```bash
 $ composer install --no-interaction --prefer-source --dev
 ```
-Once all required libraries are installed then do: 
+Once all required libraries are installed then do:
 
-```bash 
+```bash
 $ vendor/bin/phpunit
 ```
 
@@ -94,4 +94,4 @@ License
 The BSD License (BSD). Please see [License File](LICENSE.md) for more information.
 
 
-> 
+>
