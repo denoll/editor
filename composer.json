@@ -1,0 +1,47 @@
+{
+    "name": "denoll/editor",
+    "description": "CKEditor widget for Yii2.",
+    "type": "yii2-extension",
+    "keywords": [
+        "denoll",
+        "yii",
+        "yii2",
+        "yii 2",
+        "extension",
+        "widget",
+        "ckeditor"
+    ],
+    "homepage": "http://yiiwheels.com/extension/ckeditor-widget",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "denoll",
+            "email": "denoll@denoll.ru",
+            "homepage": "http://denoll.ru",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/denoll/editor/issues",
+        "source": "https://github.com/denoll/editor"
+    },
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "denoll\\ckeditor\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        },
+        "asset-installer-paths": {
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
