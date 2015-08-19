@@ -17,12 +17,12 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-composer require denoll/editor:*
+composer require denoll/editor:~1.0
 ```
 or add
 
 ```json
-"denoll/editor" : "*"
+"denoll/editor" : "~1.0"
 ```
 
 to the require section of your application's `composer.json` file.
