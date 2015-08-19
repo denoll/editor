@@ -25,6 +25,12 @@
         "issues": "https://github.com/denoll/editor/issues",
         "source": "https://github.com/denoll/editor"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/denoll/editor"
+        }
+    ],
     "require": {
         "yiisoft/yii2": "~2.0.0"
     },
