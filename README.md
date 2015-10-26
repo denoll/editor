@@ -49,7 +49,7 @@ Using inline edition with basic preset:
 
 ```
 
-use dosamigos\ckeditor\CKEditorInline;
+use denoll\editor\CKEditorInline;
 
 <?php CKEditorInline::begin(['preset' => 'basic']);?>
     This text can be edited now :)
